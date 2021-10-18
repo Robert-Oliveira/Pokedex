@@ -917,7 +917,7 @@ resetar()
 
 function resetar(){
   document.querySelector('span').innerHTML = " ";
-  document.getElementById('imgpokemon').className = null
+  document.getElementById('imgpokemon').className = null;
   aleatorio()
 }
 
