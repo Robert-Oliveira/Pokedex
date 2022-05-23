@@ -929,12 +929,12 @@ enviar.onclick = () => {
       document.querySelector('span').innerHTML = "Parabéns! É o " + pokemons[numero].nome
       document.getElementById('imgpokemon').className = "acertou"
       document.querySelector('input').value = ""
-      setTimeout(() => { resetar(); }, 2000)
+      setTimeout(() => { resetar(); }, 3000)
     }else{
       document.querySelector('span').innerHTML = "Você errou! É o " + pokemons[numero].nome
       document.getElementById('imgpokemon').className = "acertou"
       document.querySelector('input').value = ""
-      setTimeout(() => { resetar(); }, 2000)
+      setTimeout(() => { resetar(); }, 3000)
     }
   }else{
     document.querySelector('span').innerHTML = "Coloque o nome"
